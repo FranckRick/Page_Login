@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+
+html {
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
+  }
+
+
+html,
+body {
+  height: 100vh;
+ background-color:rgba(127, 255, 212, 0);
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+a{
+    text-decoration: none;
+   
+}
+
+@font-face{
+    font-family: poppins;
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+img#logo{
+      
+    width: 80px;
+}
+
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   position: relative;
+   top: 150px;
+}
+
+
+label{
+    font-family:poppins;
+    font-size: 14px;
+    
+    color: rgba(137, 43, 226)
+ }
+
+ button{
+    font-family:Poppins;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: transparent;
+    font-size: 18px;
+    color: white;
+    background-color:rgba(137, 43, 226, 0.212);
+}
+
+input{
+    
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    border-color: bisque;
+    border-style: solid;
+    width: 200px;
+    height: 25px;
+}
+
+ 
+.txtlogo{
+    font-size: 2.4rem;
+    font-family: Poppins;
+    font: bold;
+    color: antiquewhite;
+    
+}
+
+.header {
+   display: flex;
+   background-color: rgb(60, 207, 104);
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+   flex-wrap: wrap;
+
+
+   }
+
+ 
+ .text{
+    
+    font-size: 1.4rem;
+    font-family: Poppins;
+   
+    color:black;
+    
+    
+    
+ }
+
+ .lblform{
+    align-items: center;
+    display: grid;
+    border-radius: 10px;
+    margin-left: 15px;
+   
+}
+
+
+.cadastrar{
+    
+    
+    justify-content:flex-end;
+    margin-right: 10px;
+    display: flex;
+    font-family:poppins;
+    font-size: 1.4rem;
+   
+    
+    color: rgb(132, 11, 245)
+}
+
+
+
+
+.imgcifrao{
+
+    display: flex; 
+    width: 450px;
+    height: 450px;
+    margin-left: 20px;
+  
+   
+}
+
+    
+
+
+
+@media(max-width:1200px){
+    .login{
+      max-width: 90%;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+     
+      font-size: 50%;
+     
+      
+    }
+
+    .header{
+        max-width: 100%;
+     
+        
+        
+      }
+  
+      .imgcifrao{
+        width: 250px;
+        height: 250px;
+        order: -1;
+       
+       position:static;
+       }
+
+}
+
+@media (max-width: 360px) {
+    .login label, p{
+        font-size: 1rem;
+    }
+}
+ 
+
+

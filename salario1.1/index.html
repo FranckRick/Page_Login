@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script1.0.js"></script>
+    <title>Calcular Pagamento</title>
+</head>
+<body>
+
+    <header>
+        <h1>Folha de Pagamento</h1>
+        
+        <div id="Page-home">
+            <span><img src="imagens/pgto.svg" alt="Salario"></span>
+        </div>
+
+    </header>
+
+    
+    <form  method="POST" id="calcularSalario">
+      
+        <fieldset><!--Agrupa dados em um Formulario-->
+
+<legend>
+    <h2>Salário Bruto</h2>
+</legend>
+
+<div class="field-group">
+    <label for="SalarioBruto">Digite Salário Bruto</label>
+    <span>R$</span>
+    <input type="number" required placeholder="Digite seu Salário"  id="salario">
+
+<div class="field">
+    <label for="OutrosDescontos">Outros Descontos</label>
+    <span>R$</span>
+    <input type="number" required placeholder="Outros Descontos" id="OutrosDescontos">
+
+  </div>
+</div>
+        </fieldset>
+
+        <button  type="button" onclick="folhaPagamento()" value="escreva">Calcular</button>
+    </form>
+
+    <div id="tableResult">
+<table>
+    
+    <caption>Resultado</caption>
+   
+   
+    <tr>
+        <td>Salario Bruto</td>
+        <th class="salarioBruto" id="Demo1"></th>
+    </tr>
+    <tr>
+        <td>Desconto Inss</td>
+        <th class="descontoINSS"id="Demo2"></th>
+
+    </tr>
+    <tr>
+        <td>Imposto de Renda</td>
+        <th class="descontoImpostoReda" id="Demo3"></th>
+
+    </tr>
+    <tr>
+        <td>Vale</td>
+        <th class="Vale" id="Demo4"></th>
+
+    </tr>
+    <tr>
+        <td>Salario Liquido</td>
+        <th class="salarioLiquido" id="Demo5"></th>
+
+    </tr>
+    
+   
+</table>
+</div>
+
+</body>
+</html>

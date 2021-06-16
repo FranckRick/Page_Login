@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+**Calculo simples de folha de pagamento**
+
+
+Outro descontos valor pre defindo pelo usuario,
+Desconto do INSS feito apartir da nova regra de calculos,
+IRRF (imposto de renda retido na fonte),segue as alíquotas da Receita federal para calculos,
+Vale   valor adiantado referente a 40% do valor do salario bruto,
+Salario liquido valor obtido apos a soma de todos os descontos.. 
+
+Projeto para pratica de HTML,CSS e Java Script..
+=======
+**Calculo simples de folha de pagamento**
+
+
+Outro descontos valor pre defindo pelo usuario,
+Desconto do INSS feito apartir da nova regra de calculos,
+IRRF (imposto de renda retido na fonte),segue as alíquotas da Receita federal para calculos,
+Vale   valor adiantado referente a 40% do valor do salario bruto,
+Salario liquido valor obtido apos a soma de todos os descontos.. 
+
+Projeto para pratica de HTML,CSS e Java Script..
+>>>>>>> 5c8924e2bf3ae84a94e866adb00d98088a03f137

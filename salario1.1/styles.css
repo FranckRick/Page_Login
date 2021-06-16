@@ -1,0 +1,167 @@
+body::after{ /*Cria um pseudo elemento*/
+    content:"" ;
+    position:fixed;
+    background: rgb(255, 255, 255);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+   
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   background-color: #0065b85e;
+
+   
+}
+
+img {
+    display: flex;
+    max-width: 150%;
+    
+}
+
+header h1{
+    align-items: center;
+    margin: 32px;
+    margin-top: 55px;
+    font-size: 56px;
+    font-family: AvocadoCreamy;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    padding:  14px 14px;
+    max-width: 730px;
+
+   
+    
+
+}
+
+form legend{
+    font-size: 32px;
+    font-family: sans-serif;
+  
+}
+
+
+form span{
+    background-color: rgba(126, 252, 0, 0.253);
+    border-radius: 4px;
+    padding-bottom: 5px;
+   display: inline-flex;
+   font-size: 21px;
+  
+}
+
+.field span{
+    margin-left: 13px;
+}
+
+.field {
+    margin-top:10px ;
+}
+
+#Page-home{
+    margin-right: 32px;
+    
+}
+
+#salario {
+    display: inline-flex;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(144, 238, 144, 0.199);
+    width: 120px;
+    height: 23px;
+    margin-right: 32px;
+    margin-left: -4px;
+    padding: 3px;
+    
+}
+
+#OutrosDescontos{
+    display: inline-flex;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(144, 238, 144, 0.199);
+    width: 120px;
+    height: 23px;
+    margin-right: 32px;
+    margin-left: -4px;
+    padding: 3px;
+}
+
+
+label {
+    font-size: 21px;
+    font-family: fantasy;
+}
+@font-face {
+    font-family:AvocadoCreamy ;
+    src: url(fontes/Avocado\ Creamy.otf);
+} 
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    
+    }
+
+button { font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 165px;
+    height: 35px;
+    background-color: #0066b8;
+    padding: 9px 50px;
+    border: none;
+    color: white;
+    display: flex;
+    margin-top: 16px;
+    
+}
+#tableResult {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tableResult table,th,td{
+
+    border: 3px none rgba(165, 162, 162, 0.199);
+    border-collapse:collapse;
+    text-align: justify;
+
+}
+
+
+.salarioLiquido,.salarioBruto{
+     color:blue;
+}
+
+.descontoINSS, .descontoImpostoReda, .Vale{
+    color:red;
+}
+caption{
+    font-weight: bold;
+}
+#tableResult{
+   justify-content: center;
+    display:flex;
+    visibility: hidden;
+}
+
+
