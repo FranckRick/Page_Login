@@ -153,10 +153,12 @@ input{
       justify-content: center;
       text-align: center;
      
-      font-size: 50%;
+      
      
       
     }
+
+  
 
     .header{
         max-width: 100%;
@@ -166,20 +168,29 @@ input{
       }
   
       .imgcifrao{
-        width: 250px;
-        height: 250px;
+        width: 90%;
+        height: 200px;
         order: -1;
-       
+       justify-content: center;
        position:static;
        }
+     
 
-}
-
-@media (max-width: 360px) {
-    .login label, p{
-        font-size: 1rem;
+    section{
+        top: 10%;
     }
+      
+
 }
- 
+
+@media (max-width: 641px) {
+    .login label, p{
+        font-size: 1.6rem;
+        
+    }
+
+}
+
+
 
 

@@ -64,7 +64,7 @@ label{
     background-color:rgba(137, 43, 226, 0.212);
 }
 
-input{
+input#salario{
     
     margin-top: 4px;
     margin-bottom: 4px;
@@ -175,18 +175,38 @@ input{
       }
   
       .imgcifrao{
-        width: 250px;
-        height: 250px;
+        width: 90%;
+        height: 200px;
         order: -1;
-   
+      justify-content: center;
        position:static;
        }
 
+       section{
+        top: 10%;
+    }
+      
+
 }
 
-@media (max-width: 360px) {
+@media (max-width: 826px) {
     .login label, p{
-        font-size: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .login{
+     
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+       
+        font-size: 50%;
+        
+      }
+
+      section{
+        margin-top: 10px;
+        position: inherit;
     }
 }
  
